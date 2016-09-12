@@ -26,6 +26,8 @@ Route::resource('membro','MembroController' );
 
 Route::resource('projecto','ProjectoController');
 
+Route::resource('alocacao','AlocacaoController');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
